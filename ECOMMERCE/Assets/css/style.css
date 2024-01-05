@@ -487,3 +487,53 @@ transition: .3s ease-in;
         grid-template-columns: repeat(2,1fr);
     }
 }
+
+/**Formulario*/
+
+.formulario{
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.formulario fieldset{
+    border: 1px solid var(--secundario-madera);
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.formulario legend{
+    background-color: var(--madera-claro);
+    width: 100%;
+    text-align: center;
+    color: var(--blanco);
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: .2rem;
+    padding: .5rem;
+    margin-bottom: 4rem;
+
+}
+
+.campo{
+    
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.campo label{
+    flex-basis: 10rem;
+}
+
+.campo input:not([type="radio"]),
+.campo textarea,
+.campo select{
+flex: 1;
+border: 1px solid #bcbcbc;
+padding: 1rem;
+}
+
+.btn-formulario{
+    cursor: pointer;
+    border-radius: .2rem;
+    border: none;
+}
